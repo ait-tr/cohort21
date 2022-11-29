@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/duck/src/de/ait/controller/Main.java",
+    "code/duck/src/de/ait/model/Duck.java",
+    "code/quiz/src/Main.java",
+    "code/quiz_5_questions/src/Main.java",
+    "code/scanner_intro/src/Main.java"
+  ],
+  "presentation": "Lesson_20.pdf",
+  "video": "https://us02web.zoom.us/rec/share/WCzMXxUUkgAxDALx7EZxmyk0C8WUelb0p-hVRAyevdfLH6m_DfQ1g_fvwghDPC7C.CXBn4OigssyBBNFQ",
+  "etc": ""
+}
