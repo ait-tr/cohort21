@@ -5,7 +5,9 @@
   "homework": "homework.md",
   "code": [
 	"code/demo1/src/Main.java",
-	"code/demo2/src/Main.java"
+	"code/demo1/src/Person.java",	
+	"code/demo2/src/Main.java",
+	"code/demo1/src/Person.java",
   ],
   "presentation": "",
   "video": [
