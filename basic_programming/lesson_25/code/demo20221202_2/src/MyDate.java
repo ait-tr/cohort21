@@ -14,7 +14,7 @@ public class MyDate {
     }
 
     private String addLeadZero(int num){
-        return (num<10?"0"+num: ""+num);
+        return (num<10?"0": "")+num;
     }
 
     public void setDay(int day){

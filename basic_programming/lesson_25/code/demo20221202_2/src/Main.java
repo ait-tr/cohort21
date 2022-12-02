@@ -19,7 +19,8 @@ public class Main {
         }
 
         System.out.println("-----------------------------------");
-        students[0].getBirthday().setDay(17);
+        //students[0].getBirthday().setDay(17);
+        students[0].changeDayInBirthdayDate(17);
         System.out.println(student1);
 
 
