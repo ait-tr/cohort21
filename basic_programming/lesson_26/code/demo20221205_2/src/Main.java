@@ -14,24 +14,26 @@
 
 public class Main {
     public static void main(String[] args) {
-        Client c1= new Client("Иван", "Иванов");
-        Account a1 = new Account("DE123456789",c1,1000.10);
+        Client c1 = new Client("Иван", "Иванов");
+        Account a1 = new Account("DE123456789", c1, 1000.10);
 
-        Account[] accounts= {
-                new Account("DE1234567890", new Client("Ивван","Иванов"),9991.10),
-                new Account("DE1234567891", new Client("Петр","Петров"),10002.10),
-                new Account("DE1234567892", new Client("Олга","Иванова"),103.10),
-                new Account("DE1234567893", new Client("Светлана","Винтер"),6379.10)
+        Account[] accounts = {
+                new Account("DE1234567890", new Client("Ивван", "Иванов"), 9991.10),
+                new Account("DE1234567891", new Client("Петр", "Петров"), 10002.10),
+                new Account("DE1234567892", new Client("Олга", "Иванова"), 103.10),
+                new Account("DE1234567893", new Client("Светлана", "Винтер"), 6379.10)
         };
+        AccountsArray accountsArray=new AccountsArray(accounts);
 
-        for (int i = 0; i < accounts.length ; i++) {
-            System.out.println(accounts[i]);
-        }
+        System.out.println(accountsArray);
         System.out.println("---------------- secure print -----------------");
-        for (int i = 0; i < accounts.length ; i++) {
-            System.out.println(accounts[i].secureToString());
-        }
-
+        System.out.println(accountsArray.secureToString());
+        System.out.println("---------------------------------");
+        accountsArray.increase();
+        System.out.println(accountsArray);
 
     }
+
+
+
 }

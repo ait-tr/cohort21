@@ -28,6 +28,33 @@ public class Account {
 
     public String secureToString(){
         // "DE1234567890" -> "DE12******90"
+        String res="";
+        if(IBAN.length()>6) {
+            res = IBAN.substring(0, 4)
+                    + "*".repeat(IBAN.length() - 6)
+                    + IBAN.substring(IBAN.length() - 2);
+        } else {
+            res=IBAN;
+        }
+        return String.format("%-20s %-20s %7.2f", res,client,balance);
+    }
+
+
+    public String secureToString2(){
+        // "DE1234567890" -> "DE12******90"
+        String res="";
+        char[] ibanArray= IBAN.toCharArray();
+        for (int i = 4; i < ibanArray.length-2; i++) {
+            ibanArray[i]='*';
+        }
+        res= new String(ibanArray);
+        return String.format("%-20s %-20s %7.2f", res,client,balance);
+    }
+
+
+    public String secureToString1(){
+        // "DE1234567890" -> "DE12******90"
+        //IBAN.charAt(1)='j'; // !!! Error
 
         String res = "";
         for (int i = 0; i < IBAN.length(); i++) {
@@ -40,5 +67,28 @@ public class Account {
 
         return String.format("%-20s %-20s %7.2f", res,client,balance);
     }
+
+    public void increaseBalance(double value) {
+        this.balance += value;
+    }
+
+    private  String getSecureIban(){
+        String res="";
+        if(IBAN.length()>6) {
+            res = IBAN.substring(0, 4)
+                    + "*".repeat(IBAN.length() - 6)
+                    + IBAN.substring(IBAN.length() - 2);
+        } else {
+            res=IBAN;
+        }
+        return res;
+    }
+
+    public String toStringWithSecureCheck(boolean secure) {
+        String res =  secure? getSecureIban():getIBAN();
+        return String.format("%-20s %-20s %7.2f", res,client,balance);
+    }
+
+
 
 }
