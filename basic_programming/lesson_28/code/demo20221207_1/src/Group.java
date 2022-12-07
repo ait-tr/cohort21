@@ -31,10 +31,21 @@ public class Group {
     }
 
     public Student getStudent(int index) {
-        if(index<size && index>0){
+        if(index<size && index>=0){
             return array[index];
         } else {
             return null;
         }
     }
+
+    public Student getBestStudent(){
+        Student best = array[0];
+        for (int i = 0; i <size ; i++) {
+            if(best.averageGrade()<array[i].averageGrade()){
+                best=array[i];
+            }
+        }
+        return best;
+    }
+
 }

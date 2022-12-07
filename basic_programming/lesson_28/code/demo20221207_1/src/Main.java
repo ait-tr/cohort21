@@ -19,5 +19,12 @@ public class Main {
         Group gr2= gr1.getStudentList();
         System.out.println(gr2);
         System.out.println("-------------------------------------");
+
+
+        gr1.getStudent(0).setRate(new double[]{6,10,10,6});
+        gr1.getStudent(1).setRate(new double[]{7});
+        gr1.getStudent(2).setRate(new double[]{});
+        System.out.println(gr1);
+        System.out.println(gr1.getBestStudent());
     }
 }

@@ -35,4 +35,18 @@ public class Student {
     public int getMissedClasses() {
         return missedClasses;
     }
+
+    public double averageGrade(){
+        double sum=0;
+        double res=0;
+
+        if(rate!=null && rate.length!=0) {
+            for (int i = 0; i < rate.length; i++) {
+                sum += rate[i]; //  sum= sum+ rate[i]    // a=a*b -> a*=b;
+            }
+            res=sum/rate.length;
+        }
+        return res;
+    }
+
 }
