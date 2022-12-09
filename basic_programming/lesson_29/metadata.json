@@ -6,7 +6,9 @@
   "code": [
 	"code/demo20221207_1/src/Main.java",
         "code/demo20221207_1/src/Student.java",
-        "code/demo20221207_1/src/Group.java"
+        "code/demo20221207_1/src/Group.java",
+        "code/demo20221207_2/src/Main.java",
+        "code/demo20221207_2/src/NumbersProcessing.java"
   ],
   "presentation": "",
   "video": [
