@@ -1,0 +1,27 @@
+{
+  "date": "2022-12-12",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+        "code/demo20221213_1/src/Main.java",
+        "code/demo20221213_1/src/Employee.java",
+        "code/demo20221213_1/src/Manager.java",
+        "code/demo20221213_1/src/Programmer.java",
+        "code/demo20221213_1/src/JavaProgrammer.java",
+        "code/demo20221213_1/src/QAEngineer.java",
+        "code/demo20221213_1/src/Lazzy.java",
+        "code/demo20221213_1/src/Firma.java",
+        "code/demo20221213_2/src/Main.java",
+        "code/demo20221213_2/src/Circle.java",
+        "code/demo20221213_2/src/Square.java",
+        "code/demo20221213_2/src/Rectangle.java",
+        "code/demo20221213_2/src/Shape.java"
+  ],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
