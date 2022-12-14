@@ -1,0 +1,20 @@
+{
+  "date": "2022-12-14",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+        "code/demo20221213_1/src/Main.java",
+        "code/demo20221213_1/src/Circle.java",
+        "code/demo20221213_1/src/Square.java",
+        "code/demo20221213_1/src/Rectangle.java",
+        "code/demo20221213_1/src/Triangle.java", 
+       "code/demo20221213_1/src/Shape.java"
+  ],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
