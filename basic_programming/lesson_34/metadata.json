@@ -1,0 +1,29 @@
+{
+  "date": "2022-12-15",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+        "code/demo20221215_1/src/Main.java",
+        "code/demo20221215_1/src/Circle.java",
+        "code/demo20221215_1/src/Square.java",
+        "code/demo20221215_1/src/Rectangle.java",
+        "code/demo20221215_1/src/Triangle.java", 
+       "code/demo20221215_1/src/Shape.java",
+	"code/demo20221215_2/src/Main.java",
+	"code/demo20221215_2/src/Person.java",
+	"code/DZ20221215_1/src/Main.java",
+	"code/DZ20221215_1/src/Product.java",
+	"code/DZ20221215_1/src/Clothes.java",
+	"code/DZ20221215_1/src/Foodstuff.java",
+	"code/DZ20221215_1/src/Electronics.java",
+	"code/DZ20221215_1/src/Smartphones.java",
+	"code/DZ20221215_1/src/Assortment.java"
+  ],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
