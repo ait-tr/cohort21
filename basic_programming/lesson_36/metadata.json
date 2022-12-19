@@ -1,0 +1,16 @@
+{
+  "date": "2022-12-19",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+        "code/demo20221219_1/src/Main.java",
+        "code/demo20221219_1/src/Person.java"
+  ],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
