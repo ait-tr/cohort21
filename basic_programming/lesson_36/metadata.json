@@ -5,7 +5,8 @@
   "homework": "homework.md",
   "code": [
         "code/demo20221219_1/src/Main.java",
-        "code/demo20221219_1/src/Person.java"
+        "code/demo20221219_1/src/Person.java",
+        "code/demo20221219_1/src/Student.java"
   ],
   "presentation": "",
   "video": [
