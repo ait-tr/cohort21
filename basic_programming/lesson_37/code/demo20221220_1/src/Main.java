@@ -19,7 +19,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array = {2, 1, 5, 8, 10, 0, 20, 23, 56, 57, 58, 60};
+        int[] array = {2, 1, 5, 8, 10, 0, 20, 23, 56, 57, 58, -1};
         int[] array2 = {2, 1, 5, 8, 10, 0, 20, 23, 56, 57, 58, 60};
         sort(array);
         System.out.println(Arrays.toString(array));
@@ -34,7 +34,7 @@ public class Main {
         for (int j = 0; j < arr.length - 1 && flag; j++) {
 
             flag = false;
-            for (int i = 0; i < arr.length - 1; i++) {
+            for (int i = 0; i < arr.length - 1 -j; i++) {
                 if (isSwapNeeded(arr, i+1,i)) {
                     swap(arr, i, i + 1);
                     flag = true;
