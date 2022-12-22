@@ -23,6 +23,8 @@ Person и выводит на экран все Account принадлежащи
  */
 
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -45,10 +47,10 @@ public class Main {
         AccountsArray accountsArray = new AccountsArray();
         accountsArray.add(new Account("DE9999000010", 1040, new Person("John", "Jonson5")));
         accountsArray.add(new Account("DE9999000011", 1040, new Person("John", "Jonson5")));
-        //accountsArray.add(accounts);
-        System.out.println(accountsArray);
-        accountsArray.print();
+        accountsArray.add(accounts);
         accountsArray.print1();
+        System.out.println("---- find by person " + p1 + " :");
+        System.out.println(Arrays.toString(accountsArray.findAccountsByPerson(p1)));
 
         System.out.println("-------------------------------------------------------------------------");
 
@@ -95,6 +97,16 @@ public class Main {
         }
         return res;
 
+    }
+
+    public static Account[] findAccountsByPerson2(Account[] accounts, Person person) {
+        AccountsArray res = new AccountsArray();
+        for (Account acc : accounts) {
+            if (acc.getClient().equals(person)) {
+                res.add(acc);
+            }
+        }
+        return res.getAsArray();
     }
 
 

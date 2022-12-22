@@ -3,6 +3,18 @@ public class AccountsArray {
     private int size=0;
 
 
+    public Account[] findAccountsByPerson(Person person) {
+        AccountsArray res = new AccountsArray();
+        for (int i = 0; i < size ; i++) {
+            if (array[i].getClient().equals(person)) {
+                res.add(array[i]);
+            }
+        }
+        return res.getAsArray();
+    }
+
+
+
     public void  add (Account[] accounts){
         for (Account acc:accounts){
             add(acc);
@@ -15,6 +27,9 @@ public class AccountsArray {
         }
         array[size++]=account;
     }
+
+
+
 
     private void enlarge(){
         Account[] res= new Account[array.length*2];
