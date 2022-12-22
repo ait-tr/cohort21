@@ -4,10 +4,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code\demo20221221\src\Account.java",
-   "code\demo20221221\src\AccountsArray.java",
-   "code\demo20221221\src\Main.java",
-   "code\demo20221221\src\Person.java"
+        "code/demo20221221/src/Main.java",
+        "code/demo20221221/src/Person.java",
+        "code/demo20221221/src/Account.java",
+        "code/demo20221221/src/AccountArray.java"
   ],
   "presentation": "",
   "video": [
@@ -16,4 +16,3 @@
 	],
   "etc": ""
 }
-
