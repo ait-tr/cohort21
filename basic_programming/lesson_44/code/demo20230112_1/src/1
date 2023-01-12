@@ -1,0 +1,11 @@
+Дан лист String. Написать метод, который возвращает лист String со строками из исходного листа в скобках
+"jack","nick","lena" -> "(jack)","(nick)","(lena)"
+
+
+
+"jack","nick","lena" -> "(Jack)","(Nick)","(Lena)"
+
+
+
+res += "(" + str.get(i) + ")";
+res = res +   "(" + str.get(i) + ")";
