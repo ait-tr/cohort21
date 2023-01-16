@@ -4,11 +4,13 @@
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Product> products = new ArrayList<>();
+
+        List<Product> products = new LinkedList<>();
         products.add(new Food("Meat",14.5,"f001",false));
         products.add(new Food("VeganMeat",21.30,"F002",true));
         products.add(new Clothes("Jacket",89.90,"J001"));

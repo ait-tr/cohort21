@@ -1,0 +1,6 @@
+
+class Node{
+Node prev;
+Node next;
+Person value;
+}
