@@ -23,7 +23,7 @@ public static double division(int a, int b) {
 Концептуально Exception это способ прервать выполнение метода и вернуть информацию о проблеме и предпринять какие то действия если нормальное выполнение метода невозможно из за какой то исключительной ситуации. 
 
 ## Иерархия Exception
-![](https://cdn.javarush.ru/images/article/f23906db-7512-4047-985d-8ddb6bbc99c9/1024.jpeg)]
+![](https://drive.google.com/file/d/1c-lJiomOD7YRS9d6WewJEwf-KUPb7Ta4/view?usp=share_link)]
 
 Все исключения в Java можно разделить на 3 большие группы:
 - Error - исключения генерируемые JVM, которые не предполагают востонавления нормального выполнения программы, и как следствие, не могут быть обработанны. Например: OutOfMemoryError, InternalError, StackOverFlowError
