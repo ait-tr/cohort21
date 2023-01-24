@@ -8,8 +8,8 @@ import java.util.List;
 
 
 public class MyLinkedList {
-    private Node first=null;
-    private Node last=null;
+     Node first=null;
+     Node last=null;
     private int size=0;
 
     public boolean addFirst(Person value){
@@ -94,25 +94,15 @@ public class MyLinkedList {
 
     private Person remove(Node node){
         if(node==null && first==null) return null;
+        Node prev= node.getPrev();
+        Node next= node.getNext();
+
         Person res = node.getValue();
-        if(node==first || node==last){
-            if(node==first){
-                first=first.getNext();
-                first.setPrev(null);
-                node.setNext(null);
-            }
-            if (node==last){
-                last = last.getPrev();
-                last.setNext(null);
-                node.setPrev(null);
-            }
-        } else {
-            node.getPrev().setNext(node.getNext());
-            node.getNext().setPrev(node.getPrev());
-            node.setPrev(null);
-            node.setNext(null);
-            node.setValue(null);
-        }
+        if(prev!=null) prev.setNext(node.getNext()); else first=node.getNext();
+        if(next!=null) next.setPrev(node.getPrev()); else last= node.getPrev();
+        node.setPrev(null);
+        node.setNext(null);
+        node.setValue(null);
         size--;
         return res;
     }

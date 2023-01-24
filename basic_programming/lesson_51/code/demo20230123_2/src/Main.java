@@ -15,7 +15,7 @@ public class Main {
         linkedList.add(new Person("5",50));
         System.out.println("-----------------------");
         System.out.println(linkedList);;
-        System.out.println(Arrays.toString(linkedList.toArray()));
+        //System.out.println(Arrays.toString(linkedList.toArray()));
         System.out.println(linkedList.get(2));
 
         System.out.println("--------------------------------");
