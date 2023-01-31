@@ -1,0 +1,22 @@
+{
+  "date": "2023-01-31",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/demo20230131_1/src/Main.java",
+"code/demo20230131_1/src/Main2.java",
+"code/demo20230131_2/src/Main.java",
+"code/demo20230131_2/src/Person.java",
+"code/TreeDemo/src/BinaryTree.java",
+"code/TreeDemo/src/DemoTree.java",
+"code/TreeDemo/src/Main.java",
+"code/TreeDemo/src/Node.java"
+ ],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
