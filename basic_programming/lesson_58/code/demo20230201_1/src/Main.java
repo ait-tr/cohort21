@@ -35,7 +35,7 @@ public class Main {
 
         // Переменные extraPerson содержит объект ананимного класса,
         // котопый реализует наследует от Person
-        Person extraPerson = new Person(){ //  new X extends Person
+        Person extraPerson = new Person("Jack",10){ //  new X extends Person
             @Override
             public String getName() {
                 return "работае метод getName() " + super.getName();
