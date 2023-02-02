@@ -1,0 +1,26 @@
+{
+  "date": "2023-02-01",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/demo20230202_1/src/Main.java",
+"code/demo20230202_2/src/Main.java",
+"code/demo20230202_2/src/Main2.java",
+"code/demo20230202_2/src/Printer.java",
+"code/DZ20230202_1/src/BankAccountWithOwner.java",
+"code/DZ20230202_1/src/Main.java",
+"code/DZ20230202_1/src/MainTest.java",
+"code/DZ20230202_1/src/Person.java",
+"code/task_1/src/Car.java",
+"code/task_1/src/Main.java",
+"code/task_1/src/MainTest.java",
+"code/task_1/src/MyPredicate.java",
+"code/task_1/src/MyPredicateByYear.java" ],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
