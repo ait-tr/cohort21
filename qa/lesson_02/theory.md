@@ -5,7 +5,7 @@
 
 ### Стандарт ISO/IEC 25010: 2011
 включает такие критерии как
-#### Functional suitability -
+#### Functional suitability
 #### Reliability
 #### Performance Efficiency
 #### Usability
