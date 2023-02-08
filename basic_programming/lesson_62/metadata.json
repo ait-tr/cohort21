@@ -1,0 +1,19 @@
+{
+  "date": "2023-02-08",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/DZ20230208_1/src/Main.java",
+"code/DZ20230208_1/src/Main2.java",
+"code/DZ20230208_1/src/Main3.java",
+"code/DZ20230208_2/src/Main.java",
+"code/DZ20230208_2/src/Task.java",
+"code/DZ20230208_2/src/TasksQueue.java"],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
