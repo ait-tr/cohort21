@@ -19,9 +19,12 @@ public class Main {
         tasksQueue.addTask(new Task("task_7","high!!!"));
 
         System.out.println(tasksQueue);
-
+        method(Priority.HIGH);
+        method(Priority.LOW);
 
     }
 
-
+    public static void method(Priority priority){
+        System.out.println(priority.name());
+    }
 }
