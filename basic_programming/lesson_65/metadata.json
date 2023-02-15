@@ -1,0 +1,23 @@
+{
+  "date": "2023-02-15",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/demo20230215_2/src/Account.java",
+"code/demo20230215_2/src/Main.java",
+"code/demo20230215_2/src/Person.java",
+"code/demo20230215_2/src/Transaction.java",
+"code/DZ20230215_1/src/Address.java",
+"code/DZ20230215_1/src/Main.java",
+"code/DZ20230215_1/src/MyImplPersonToString.java",
+"code/DZ20230215_1/src/Person.java",
+"code/DZ20230215_1/src/PersonToStringFunction.java"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
