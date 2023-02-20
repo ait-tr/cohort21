@@ -1,3 +1,3 @@
 ##  Homework
 
-Тест#3 https://bit.ly/3IDocoq
+Решить задачи https://bit.ly/3lV1wa8
