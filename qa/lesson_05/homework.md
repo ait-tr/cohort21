@@ -1,3 +1,3 @@
 ##  Homework
 
-Решить задачи https://bit.ly/3lV1wa8
+Решить задачи http://bit.ly/3IEhvT9
