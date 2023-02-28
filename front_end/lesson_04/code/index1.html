@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="dz1.html" method="get">
+    <fieldset>  
+        <legend>состояние</legend>  
+        <label>быть <input type="radio" name="tobe" value="быть" checked></label>
+        <label> не быть <input type="radio" name="tobe" value="не быть"></label>
+    <br>
+        <label> есть<input type="radio" name="toeat" value="есть" checked></label>
+        <label> не есть<input type="radio" name="toeat" value="не есть"></label>
+    </fieldset>
+<br>
+    <fieldset disabled>
+        <legend>Технологии 
+            <label>
+                редактировать
+                <input type="checkbox" name="edit" value="on" id="edit">
+            </label>
+        </legend>
+        <label for="java">java</label>
+        <input type="checkbox" name="java" value="on" id="java">
+        <label for="c">c</label>
+        <input type="checkbox" name="c" value="on" id="c">
+        <label for="cplus">c++</label>
+        <input type="checkbox" name="cplus" value="on" id="cplus">
+    </fieldset>
+
+    <p>
+        <label for="username">Введите имя:</label>
+        <input type ="text" name = "user" id="username"
+        required>
+        <label for="userpass">Введите пароль:</label>
+        <input type ="password" name = "pass" id="userpass">
+        </p>
+
+<label for="birthday">Введите дату рождения:</label>
+<input type ="date" name = "birthday" id="birthday">
+
+<br><br>
+<select name="operation" required multiple size="2">
+    <option value="">Выбирете тип операции</option>
+    <option value="1">Пополнит счет</option>
+    <option value="2">Снять наличные</option>
+    <option value="3">Прсмотреть баланс</option>
+</select>
+
+<textarea name="texbox" id="textcontrol" cols="30" rows="10">текст при загрузки</textarea>
+<p>
+Lorem                         ipsum dolor sit amet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;consectetur &lt;adipisicing elit. &gt; Non eos aliquam placeat natus est impedit consequatur! Sit, exercitationem. Dignissimos iure velit minus hic sapiente non eligendi sed sit autem dolor?
+</p>
+    <hr>
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>
