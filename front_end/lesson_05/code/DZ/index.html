@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW 27.02.2023</title>
+</head>
+<body>
+<form action="submit.html" method="get" autocomplete="off"> 
+    <table>
+        <tr>
+            <td colspan="2">
+                    <fieldset>
+                     <legend><b>Пользователь</b></legend>
+                      <label><b>*Имя:</b>
+                            <br>
+                            <input placeholder="Введите имя" type="text" name="Имя" required>
+                      </label>
+                        <br>
+                      <label><b>*E-Mail:</b>
+                            <br>
+                            <input type="email" name="email" required>
+                      </label>
+                        <br>
+                      <label><b>*Мобильный:</b>
+                      <br>
+                      <input type="tel" name="mobile"  required></label>
+                    </fieldset> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend><b>Интересы</b></legend>
+
+                    <input type="checkbox" name="frontend" id="frontend" checked>
+                    <label for="frontend"><b>FrontEnd</b></label>
+                    <br>
+                    <input type="checkbox" name="backend" id="backend" checked>
+                    <label for="backend"><b>BackEnd</b></label>
+                    <br>
+                    <input type="checkbox" name="qa" id="qa" checked>
+                    <label for="qa"><b>QA</b></label>
+                    <br>
+                    <input type="checkbox" name="Database" id="database" >
+                    <label for="database"><b>Database</b></label>
+                    <br>
+                    <input type="checkbox" name="DevOps" id="devops" >
+                    <label for="devops"><b>DevOps</b></label>
+                    
+                </fieldset>
+            </td>
+            <td>
+                <fieldset>
+                    <legend><b>Занятия</b></legend>
+                    <input type="radio" name="daytime" id="morning"  value="morning" checked>
+                    <label for="morning"><b>Утром</b></label>
+                    <input type="radio" name="daytime" id="evening" value="evening">
+                    <label for="evening"><b>Вечером</b></label>
+                    <br>
+                    <input type="radio" name="plan" id="week3" value="week3">
+                    <label for="week3"><b>3 раза в неделю</b></label>
+                    <input type="radio" name="plan" id="every_day" value="every_day">
+                    <label for="every_day"><b>Каждый день</b></label>
+
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="choose"><b>*Выберите Ваш уровень владения компьютером</b></label>
+            </td>
+            <td>
+                <select name="choose" id="choose" required>
+                    <option value="">Выбирете из списка</option>
+                    <option value="1">"Компьютер" что это?</option>
+                    <option value="2">Чайник, который что-то варит</option>
+                    <option value="3">Я постиг "Дзен" в общении с компьютером</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label><b>Цели обучения</b>
+                <br>
+                <textarea cols="85" rows="4" name="purpose_to_study" maxlength="200" wrap="soft">1) Хотел бы найти новую работу в IT </textarea> </label>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Отправить">
+</form>
+
+    
+</body>
+</html>

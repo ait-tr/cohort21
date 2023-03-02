@@ -1,0 +1,20 @@
+{
+  "date": "2023-02-20",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/DZ/index.html",
+"code/DZ/submit.html",
+"code/css/style.css",
+"code/demo01.html",
+"code/demo02.html",
+"code/demo03.html"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}

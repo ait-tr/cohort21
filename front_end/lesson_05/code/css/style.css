@@ -1,0 +1,26 @@
+*{
+    color : #ff4a02;  
+}
+p { /* свойство : значение */
+    font : 18px sans-serif;
+    font-style : italic;
+    color : #026afd;
+    text-align : center;
+} 
+h1,
+h2,
+h3{
+    color : #02fd0f;  
+}
+#msg,
+#msg2{
+    background-color:gray;
+}
+.big{
+    font-size: 300%;
+}
+
+.green{
+    color: green;
+}
+
