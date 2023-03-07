@@ -1,0 +1,49 @@
+
+  body {
+    margin: 100px;
+    background-color: #ffe4c4;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .title {
+    font-size: 25px;
+    color: #d2691e;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+  .main-text {
+    font-style: italic;
+    font-size: 16px;
+  }
+  .subtitle {
+    font-size: 20px;
+    color: #d2691e;
+    font-style: italic;
+  }
+  ol li {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  ol li > p {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 15px;
+    margin: -1px 0 5px 0;
+  }
+  .highlighted-text {
+    background-color: #ff6347;
+    font-style: italic;
+  }
+  .special-text {
+    font-style: normal;
+    font-size: 16px;
+  }
+  ul li {
+    font-size: 14px;
+  }
+  .links {
+    text-align: center;
+  }
+  .colored-block{
+    background-color: aqua;
+  }
