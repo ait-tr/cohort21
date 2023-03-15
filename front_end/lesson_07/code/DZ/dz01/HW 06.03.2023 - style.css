@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(rgb(0, 0, 0),rgb(51, 114, 197)) fixed;
+}
+
+.block{
+    width: 80%;
+    margin: auto;
+    min-height: 2000px;
+    background: rgb(255, 255, 255);
+    padding-top: 50px;
+    
+}
+
+.title-block{
+    background: transparent;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    padding-left: 100px;
+    
+}
+
+.header-block{
+    background: linear-gradient(limegreen, yellow);
+    margin-top: -55px;
+    margin-bottom: -55px;
+    padding-left: 100px;
+    padding-top: 50px;
+
+}
+
+h1{
+    font-size: 48px;
+    font-style: italic;
+    color: #11079b;
+}
+
+p{
+    font-style: italic;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    color: #11079b;
+}
+
+h3{
+    color: blue;
+}
+.news-block{
+    background: rgb(255, 255, 255);
+    border: 1px solid blue;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+div{
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+dt{
+    color: red;
+}
+
+
+   a {
+    color: #0e1bdb; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+   }
+   a:visited {
+    color: #8F8E8E; /* Цвет посещённой ссылки */
+   } 
+   a:hover {
+    color: #CE242B; /* Цвет ссылки при наведении */ 
+    text-decoration: none; /* Добавляем подчёркивание */
+   }
