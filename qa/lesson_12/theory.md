@@ -33,4 +33,4 @@ Postman имеет несколько пространств и областей
 
 Переменные окружения существуют отдельно от коллекций. Локальные переменные создаются из выполняемых скриптов. Также существуют переменные уровня данных, но они доступны только из Runner.
 
-QA21 ilCarro collection https://bit.ly/3z1yycl
+QA21 ilCarro collection https://api.postman.com/collections/8263422-2f362656-6aeb-43c0-a043-5d88f0840f98?access_key=PMAT-01GVN51BAQXB8TE9BNQCHHSF2K
