@@ -1,0 +1,12 @@
+.normal-text{
+    font-size: 18px;
+
+}
+
+.selected-text{
+    font-size: 18px;
+    background-color: rgb(9, 33, 111);
+    color: aliceblue;
+
+    
+}
