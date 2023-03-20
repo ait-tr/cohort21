@@ -67,4 +67,3 @@ newParagraph1.appendChild(text1);
 document.getElementById("qwe1").appendChild(newParagraph1);
 
 
-

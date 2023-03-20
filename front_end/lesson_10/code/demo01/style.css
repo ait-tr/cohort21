@@ -1,0 +1,72 @@
+body{
+    background-color:azure;
+    font-size: 18px;
+    margin: 0;
+}
+.main{
+    max-width: 800px;
+    min-width: 400px;
+    height: 100vh;
+    margin: auto;
+    background-color: rgba(189, 190, 191, 0.2);
+    border-left: 1px solid #c2c5c5;
+    border-right: 1px solid #c2c5c5;
+}
+.header{
+    color: rgb(123, 126, 126);
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.date{
+    text-align: center;
+}
+.hero{
+    width: 100%;
+    
+}
+.hero *{
+    padding-left: 50px;
+}
+
+.header-msg{ 
+    padding-top: 30px;
+    font-size: 1.2em;
+    font-style: italic;
+    color: brown;
+    background-color: rgba(255, 235, 205, 0.6);
+
+}
+.h1{
+    margin:0px;
+    margin-bottom: -20px;
+    padding-top: 20px;
+}
+.news{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    min-height: 70px;
+    border-radius: 0px;
+}
+
+.news-title{
+    padding-left: 30px;
+    font-size: 1em;
+    margin-top: 5px;
+    margin-bottom:5px ;
+}
+.tag{
+    font-size: .9em;
+    font-weight: 500;
+    text-transform: lowercase;
+    color: rgb(31, 89, 154);
+    margin-bottom: 15px;
+}
+.time{
+    font-size: .9em;
+    font-weight: 200;
+    text-transform: lowercase;
+    color: rgb(158, 159, 160);
+    text-align: right;
+}
