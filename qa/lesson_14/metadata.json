@@ -3,9 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/QA21_FirstSeleniumProject/src/test/java/FirstSeleniumTest.java",
-    "code/QA21_FirstSeleniumProject/src/test/java/FirstFindElementTests.java",
-    "code/QA21_FirstSeleniumProject/src/test/java/SeleniumLocatorsTests.java"
+    "code/FirstSeleniumProject/src/test/java/FirstSeleniumTest.java",
+    "code/FirstSeleniumProject/src/test/java/FirstFindElementTests.java",
+    "code/FirstSeleniumProject/src/test/java/SeleniumLocatorsTests.java"
   ],
    "video": ""
 }
