@@ -41,6 +41,7 @@ testng,junit...
 #### Cборщик
 
 Gradle,Maven...
+https://gradle.org/releases/
 
 #### Среда разработки
 

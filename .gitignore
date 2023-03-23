@@ -25,3 +25,13 @@ hs_err_pid*
 .idea/
 out/
 *.iml
+
+.DS_Store
+.gradle/
+build/
+gradlew/
+*.bat
+settings.gradle
+*.properties
+*.jar
+gradlew
