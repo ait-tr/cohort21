@@ -1,0 +1,15 @@
+.block{
+    position: relative;
+    top:50px;
+
+}
+.panel{
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    padding-top: 5px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}

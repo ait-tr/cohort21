@@ -1,0 +1,1 @@
+[Презентация](https://drive.google.com/file/d/1wqYBXMsFUBCZAWbehNeG2tbo39FDtBb2/view?usp=sharing)
