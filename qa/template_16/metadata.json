@@ -1,0 +1,11 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/FirstSeleniumProject/src/test/java/FirstSeleniumTest.java",
+    "code/FirstSeleniumProject/src/test/java/FirstFindElementTests.java",
+    "code/FirstSeleniumProject/src/test/java/SeleniumLocatorsTests.java"
+  ],
+   "video": ""
+}
