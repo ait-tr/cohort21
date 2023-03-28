@@ -1,0 +1,9 @@
+body { 
+    background-color: rgb(218, 248, 248);
+}
+
+#input_area{
+    width: 300px;
+    height: 250px;
+    font-size: 18px;
+}
