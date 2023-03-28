@@ -5,7 +5,8 @@
   "code": [
     "code/FirstSeleniumProject/src/test/java/FirstSeleniumTest.java",
     "code/FirstSeleniumProject/src/test/java/FirstFindElementTests.java",
-    "code/FirstSeleniumProject/src/test/java/SeleniumLocatorsTests.java"
+    "code/FirstSeleniumProject/src/test/java/SeleniumLocatorsTests.java",
+    "code/FirstSeleniumProject/src/test/java/TableTests.java"
   ],
    "video": ""
 }
