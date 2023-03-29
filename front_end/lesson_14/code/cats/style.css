@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(223, 231, 238);
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    color: azure;
+    text-shadow:  3px 5px 5px gray;
+}
+
+.wraper{
+    width: 100%;
+}
+
+.img-box{
+    width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cat-img{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border: 15px solid antiquewhite;
+    border-radius: 15px;
+    box-shadow: 3px 5px 5px gray;
+}
+
