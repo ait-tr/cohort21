@@ -44,4 +44,25 @@ public class FirstFindElementTests {
     public void tearDown() {
         driver.quit();
     }
+
+    @Test
+    public void xpathTest() {
+        //parent
+        driver.findElement(By.xpath("//h1/parent::*"));
+        driver.findElement(By.xpath("//h1/parent::div"));
+        driver.findElement(By.xpath("//h1/.."));
+        //ancestor
+        driver.findElements(By.xpath("//button/ancestor::*"));//all
+        driver.findElements(By.xpath("//button/ancestor::div"));//two options
+        driver.findElement(By.xpath("//button/ancestor::div[2]"));//one option
+        //following-sibling
+        driver.findElements(By.xpath("//h1/following-sibling::a"));
+        //preceding-sibling
+        driver.findElement(By.xpath("//a[@href='/login']/preceding-sibling::h1"));
+
+    }
+
+    // text() - returns text of element
+    // contains() - return path of text
+    //start-with() //button[@type='submit' and starts-with(.,'Log')]
 }
