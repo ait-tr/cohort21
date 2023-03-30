@@ -19,7 +19,7 @@ public class AddContactTests extends TestBase{
         }
     }
 
-    @Test(priority = 4)
+    @Test
     public void addContactPositiveTest() {
         int i = (int)(System.currentTimeMillis()/1000) % 3600;
         //click on Add link

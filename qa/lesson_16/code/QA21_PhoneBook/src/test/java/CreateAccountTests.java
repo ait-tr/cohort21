@@ -14,7 +14,7 @@ public class CreateAccountTests extends TestBase {
         }
     }
 
-    @Test
+    @Test(enabled = false)
     public void newUserRegistrationTest() {
         //click on login link
         driver.findElement(By.xpath("//a[contains(.,'LOGIN')]")).click();

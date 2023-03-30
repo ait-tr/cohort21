@@ -6,16 +6,18 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 
 import java.time.Duration;
 import java.util.NoSuchElementException;
 
 public class TestBase {
 
-    WebDriver driver;
+   static WebDriver driver;
 
-    @BeforeMethod
+    @BeforeSuite
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("remote-allow-origins=*");
@@ -38,7 +40,7 @@ public class TestBase {
         }
     }
 
-    @AfterMethod(enabled = false)
+    @AfterSuite(enabled = false)
     public void tearDown() {
         driver.quit();
     }

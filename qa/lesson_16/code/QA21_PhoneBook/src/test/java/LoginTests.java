@@ -12,7 +12,7 @@ public class LoginTests extends TestBase{
         }
     }
 
-    @Test(priority = 2)
+    @Test(priority = 1)
     public void loginRegisteredUserPositiveTest() {
         //click on Login link
         click(By.xpath("//a[contains(.,'LOGIN')]"));
@@ -25,7 +25,7 @@ public class LoginTests extends TestBase{
         Assert.assertTrue(isElementPresent(By.xpath("//button[contains(.,'Sign Out')]")));
     }
 
-    @Test(priority = 3)
+    @Test(priority = 2)
     public void loginRegisteredUserNegativeWithInvalidPasswordTest() {
         //click on Login link
         click(By.xpath("//a[contains(.,'LOGIN')]"));

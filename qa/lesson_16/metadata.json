@@ -1,6 +1,5 @@
 {
   "plan": "plan.md",
-  "theory": "theory.md",
   "homework": "homework.md",
   "code": [
     "code/QA21_PhoneBook/src/test/java/TestBase.java",
