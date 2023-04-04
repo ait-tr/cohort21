@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA21_PhoneBook/src/test/java/TestBase.java",
+    "code/QA21_PhoneBook/src/test/java/HomePageTests.java",
+    "code/QA21_PhoneBook/src/test/java/CreateAccountTests.java",
+    "code/QA21_PhoneBook/src/test/java/LoginTests.java",
+    "code/QA21_PhoneBook/src/test/java/AddContactTests.java",
+    "code/QA21_PhoneBook/src/test/java/RemoveContactTests.java"
+  ],
+   "video": ""
+}

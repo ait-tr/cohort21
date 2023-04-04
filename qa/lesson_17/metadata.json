@@ -1,0 +1,21 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA21_PhoneBook/src/test/java/ApplicationManager.java",
+    "code/QA21_PhoneBook/src/test/java/BaseHelper.java",
+    "code/QA21_PhoneBook/src/test/java/UserHelper.java",
+    "code/QA21_PhoneBook/src/test/java/ContactHelper.java",
+    "code/QA21_PhoneBook/src/test/java/HeaderHelper.java",
+    "code/QA21_PhoneBook/src/test/java/HomePageHelper.java",
+    "code/QA21_PhoneBook/src/test/java/User.java",
+    "code/QA21_PhoneBook/src/test/java/Contact.java",
+    "code/QA21_PhoneBook/src/test/java/TestBase.java",
+    "code/QA21_PhoneBook/src/test/java/HomePageTests.java",
+    "code/QA21_PhoneBook/src/test/java/CreateAccountTests.java",
+    "code/QA21_PhoneBook/src/test/java/LoginTests.java",
+    "code/QA21_PhoneBook/src/test/java/AddContactTests.java",
+    "code/QA21_PhoneBook/src/test/java/RemoveContactTests.java"
+  ],
+   "video": ""
+}
