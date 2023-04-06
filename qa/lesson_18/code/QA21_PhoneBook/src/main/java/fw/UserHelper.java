@@ -1,3 +1,6 @@
+package fw;
+
+import model.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

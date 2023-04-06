@@ -1,41 +1,35 @@
+import model.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class CreateAccountTests extends TestBase {
-
+public class LoginTests extends TestBase{
     @BeforeMethod
     public void ensurePrecondition() {
         if (!app.getHeader().isLoginLinkPresent()) {
-
             app.getUser().clickOnSignOutButton();
         }
     }
 
-    @Test(enabled = false)
-    public void newUserRegistrationPositiveTest() {
+    @Test(priority = 1)
+    public void loginRegisteredUserPositiveTest() {
 
         app.getHeader().clickOnLoginLink();
-
-        Assert.assertTrue(app.getUser().isLoginRegFormPresent());
 
         app.getUser().fillLoginRegForm(new User().setEmail("manuel+4@gmail.com").setPassword("Manuel12345$"));
 
-        app.getUser().clickOnRegistrationButton();
-
+        app.getUser().clickOnLoginButton();
         Assert.assertTrue(app.getUser().isSignOutButtonPresent());
     }
 
-    @Test
-    public void newUserRegistrationNegativeWithoutPasswordTest() {
+    @Test(priority = 2)
+    public void loginRegisteredUserNegativeWithInvalidPasswordTest() {
 
         app.getHeader().clickOnLoginLink();
 
-        Assert.assertTrue(app.getUser().isLoginRegFormPresent());
+        app.getUser().fillLoginRegForm(new User().setEmail("manuel+4@gmail.com").setPassword("Manuel12345"));
 
-        app.getUser().fillLoginRegForm(new User().setEmail("manuel+4@gmail.com"));
-
-        app.getUser().clickOnRegistrationButton();
+        app.getUser().clickOnLoginButton();
         Assert.assertTrue(app.getUser().isAlertPresent());
     }
 }
