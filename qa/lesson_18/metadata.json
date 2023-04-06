@@ -16,7 +16,10 @@
     "code/QA21_PhoneBook/src/test/java/CreateAccountTests.java",
     "code/QA21_PhoneBook/src/test/java/LoginTests.java",
     "code/QA21_PhoneBook/src/test/java/AddContactTests.java",
-    "code/QA21_PhoneBook/src/test/java/RemoveContactTests.java"
+    "code/QA21_PhoneBook/src/test/java/RemoveContactTests.java",
+    "code/QA21_PhoneBook/src/test/resources/contact.csv",
+    "code/QA21_PhoneBook/src/test/resources/logback.xml",
+    "code/QA21_PhoneBook/build.gradle"
   ],
    "video": ""
 }
