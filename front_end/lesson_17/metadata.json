@@ -1,0 +1,21 @@
+{
+  "date": "2023-03-29",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/helloreact/package.json",
+"code/helloreact/public/index.html",
+"code/helloreact/src/index.css",
+"code/helloreact/src/index.tsx",
+"code/helloreact/src/Counter/Counter.css",
+"code/helloreact/src/Counter/Counter.tsx",
+"code/helloreact/src/Message/Message.tsx"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}

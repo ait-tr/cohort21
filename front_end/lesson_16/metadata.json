@@ -1,0 +1,20 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/demo01/demo.ts",
+"code/demo01/script.js",
+"code/helloreact/public/index.html",
+"code/helloreact/src/Counter/Counter.css",
+"code/helloreact/src/Counter/Counter.tsx",
+"code/helloreact/src/index.css",
+"code/helloreact/src/index.tsx"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
