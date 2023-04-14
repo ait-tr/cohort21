@@ -16,21 +16,22 @@ public class AddContactTestsOkhttp {
     Gson gson = new Gson();
     OkHttpClient client = new OkHttpClient();
 
-    String token = "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoibWFudWVsKzRAZ21haWwuY29tIiwiaXNzIjoiUmVndWxhaXQiLCJleHAiOjE2ODE5ODIwNDMsImlhdCI6MTY4MTM4MjA0M30.gqsFTURMKE5vb7_-P8EM5OiksH8-oSYjP5b0YGaOa0A";
+    String token = "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoibWFudWVsKzRAZ21haWwuY29tIiwiaXNzIjoiUmVndWxhaXQiLCJleHAiOjE2ODIwODY5OTgsImlhdCI6MTY4MTQ4Njk5OH0.wanIL6Ya2HxxdM-m5qnLM_nBKexi2-tINu9Y7vC0Uo8";
 
     @Test
     public void addContactSuccessTest() throws IOException {
 
         ContactDto contactDto = ContactDto.builder().name("Oliver").lastName("Kan")
-                .email("kan@gm.co").phone("123456789876")
+                .email("kan@gmail.com").phone("1234512345")
                 .address("Berlin").description("goalkeeper").build();
 
         RequestBody body = RequestBody.create(gson.toJson(contactDto),JSON);
         Request request = new Request.Builder()
-                .url("https://contactapp-telran-backend.herokuapp.com/v1/user/login/usernamepassword")
-                .addHeader("Authorization",token)
+                .url("https://contactapp-telran-backend.herokuapp.com/v1/contacts")
+                .addHeader("Authorization", token)
                 .post(body).build();
 
         client.newCall(request).execute();
+
     }
 }
