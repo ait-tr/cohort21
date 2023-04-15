@@ -1,0 +1,23 @@
+{
+  "date": "2023-03-29",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/list/package.json",
+"code/list/public/index.html",
+"code/list/src/index.css",
+"code/list/src/index.tsx",
+"code/list/src/List/List.module.css",
+"code/list/src/List/List.tsx",
+"code/list/src/Msg/Msg.module.css",
+"code/list/src/Msg/Msg.tsx",
+"code/list/src/Users/Users.tsx"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
