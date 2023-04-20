@@ -61,6 +61,4 @@ public class LoginTestsOkhttp {
         Assert.assertEquals(errorDto.getError(),"Unauthorized");
         Assert.assertEquals(errorDto.getMessage(),"Login or Password incorrect");
     }
-
-    // eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoibWFudWVsKzRAZ21haWwuY29tIiwiaXNzIjoiUmVndWxhaXQiLCJleHAiOjE2ODE5ODIwNDMsImlhdCI6MTY4MTM4MjA0M30.gqsFTURMKE5vb7_-P8EM5OiksH8-oSYjP5b0YGaOa0A
 }
