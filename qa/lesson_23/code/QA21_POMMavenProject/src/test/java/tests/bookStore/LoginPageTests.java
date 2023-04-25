@@ -8,8 +8,9 @@ import pages.SidePanel;
 import pages.bookStore.LoginPage;
 import pages.bookStore.ProfilePage;
 import pages.data.UserData;
+import tests.TestBase;
 
-public class LoginPageTests extends TestBase{
+public class LoginPageTests extends TestBase {
 
     @BeforeMethod
     public void precondition() {
