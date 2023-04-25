@@ -1,0 +1,35 @@
+{
+  "date": "2023-03-29",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/app/public/index.html",
+"code/app/src/Formin/Formin.tsx",
+"code/app/src/index.css",
+"code/app/src/index.tsx",
+"code/app/src/Layout/Layout.tsx",
+"code/app/src/MyApp/MyApp.tsx",
+"code/app/src/Page/Page.tsx",
+"code/app/src/Page1/Page1.tsx",
+"code/app/src/Page2/Page2.tsx",
+"code/app/src/Page3/Page3.tsx",
+"code/app.save/package.json",
+"code/app.save/public/index.html",
+"code/app.save/public/manifest.json",
+"code/app.save/public/robots.txt",
+"code/app.save/src/index.css",
+"code/app.save/src/index.tsx",
+"code/app.save/src/Layout/Layout.tsx",
+"code/app.save/src/MyApp/MyApp.tsx",
+"code/app.save/src/Page1/Page1.tsx",
+"code/app.save/src/Page2/Page2.tsx",
+"code/app.save/src/Page3/Page3.tsx"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}

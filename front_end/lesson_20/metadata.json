@@ -1,0 +1,37 @@
+{
+  "date": "2023-03-29",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/list/package.json",
+"code/list/public/index.html",
+"code/list/src/index.css",
+"code/list/src/index.tsx",
+"code/list/src/Layout/Layout.tsx",
+"code/list/src/Layoutlink/Layoutlink.tsx",
+"code/list/src/List/List.module.css",
+"code/list/src/List/List.tsx",
+"code/list/src/Msg/Msg.module.css",
+"code/list/src/Msg/Msg.tsx",
+"code/list/src/MyApp/MyApp.tsx",
+"code/list/src/Posts/Posts.module.css",
+"code/list/src/Posts/Posts.tsx",
+"code/list/src/Users/Users.tsx",
+"code/listdz/public/index.html",
+"code/listdz/src/index.css",
+"code/listdz/src/index.tsx",
+"code/listdz/src/List/List.module.css",
+"code/listdz/src/List/List.tsx",
+"code/listdz/src/Msg/Msg.module.css",
+"code/listdz/src/Msg/Msg.tsx",
+"code/listdz/src/Posts/Posts.module.css",
+"code/listdz/src/Posts/Posts.tsx",
+"code/listdz/src/Users/Users.tsx"
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
