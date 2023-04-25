@@ -1,9 +1,11 @@
 {
-  "date": "2023-02-15",
   "plan": "plan.md",
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+"code/d20230424_1/src/Main.java",
+"code/d20230424_1/src/Printer.java",
+"code/d20230424_1/src/PrinterImpl.java"
 ],
   "presentation": "",
   "video": [

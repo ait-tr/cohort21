@@ -1,4 +1,4 @@
 #1
-[ТУТ](https://docs.google.com/document/d/1CcYfIH1CmbsQuJYbBpJHgHFGQrTr7kXuLQQXwjS11NE/edit?usp=share_link)
+Дописать проект лист, так чтобы по нажатию на кнопку отображались посты "активнного" user
 
 
