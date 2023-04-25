@@ -3,7 +3,7 @@
   "homework": "homework.md",
   "code": [
     "code/QA21_POMMavenProject/src/main/java/pages/bookStore/BookStorePage.java",
-    "code/QA21_POMMavenProject/src/main/java/pages/bookStore/LoginPage.java.java",
+    "code/QA21_POMMavenProject/src/main/java/pages/bookStore/LoginPage.java",
     "code/QA21_POMMavenProject/src/main/java/pages/bookStore/ProfilePage.java",
     "code/QA21_POMMavenProject/src/main/java/pages/alertsFrameWindows/AlertsPage.java",
     "code/QA21_POMMavenProject/src/main/java/pages/alertsFrameWindows/BrowserWindowsPage.java",
