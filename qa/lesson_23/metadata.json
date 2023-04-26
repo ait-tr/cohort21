@@ -1,0 +1,24 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA21_POMMavenProject/src/main/java/pages/bookStore/BookStorePage.java",
+    "code/QA21_POMMavenProject/src/main/java/pages/bookStore/LoginPage.java",
+    "code/QA21_POMMavenProject/src/main/java/pages/bookStore/ProfilePage.java",
+    "code/QA21_POMMavenProject/src/main/java/pages/alertsFrameWindows/AlertsPage.java",
+    "code/QA21_POMMavenProject/src/main/java/pages/alertsFrameWindows/BrowserWindowsPage.java",
+    "code/QA21_POMMavenProject/src/main/java/pages/widgets/SelectMenuPage.java",
+    "code/QA21_POMMavenProject/src/main/java/pages/data/UserData.java",
+    "code/QA21_POMMavenProject/src/main/java/pages/BasePage.java",
+    "code/QA21_POMMavenProject/src/main/java/pages/HomePage.java",
+    "code/QA21_POMMavenProject/src/main/java/pages/SidePanel.java",
+    "code/QA21_POMMavenProject/src/test/java/tests/bookStore/LoginPageTests.java",
+    "code/QA21_POMMavenProject/src/test/java/tests/bookStore/SearchBookTests.java",
+    "code/QA21_POMMavenProject/src/test/java/tests/alertFrameWindows/AlertsTests.java",
+    "code/QA21_POMMavenProject/src/test/java/tests/alertFrameWindows/WindowsTests.java",
+    "code/QA21_POMMavenProject/src/test/java/tests/widgets/SelectTests.java",
+    "code/QA21_POMMavenProject/src/test/java/tests/TestBase.java",
+    "code/QA21_POMMavenProject/pom.xml"
+  ],
+   "video": ""
+}

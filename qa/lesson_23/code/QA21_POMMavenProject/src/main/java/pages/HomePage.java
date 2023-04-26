@@ -17,4 +17,21 @@ public class HomePage extends BasePage {
         clickWithJSExecutor(booStoreApp,0,800);
         return new BookStorePage(driver);
     }
+
+    @FindBy(xpath = "//h5[.='Alerts, Frame & Windows']")
+    WebElement alertsFrameWindows;
+
+
+    public SidePanel getAlertsFrameWindows() {
+        clickWithJSExecutor(alertsFrameWindows,0,400);
+        return new SidePanel(driver);
+    }
+
+    @FindBy(xpath = "//h5[.='Widgets']")
+    WebElement widgets;
+
+    public SidePanel getWidgets() {
+        clickWithJSExecutor(widgets,0,400);
+        return new SidePanel(driver);
+    }
 }
