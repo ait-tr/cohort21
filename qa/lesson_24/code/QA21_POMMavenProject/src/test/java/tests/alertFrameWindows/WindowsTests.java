@@ -1,4 +1,4 @@
-package tests.alertsFrameWindow;
+package tests.alertFrameWindows;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

@@ -34,4 +34,28 @@ public class HomePage extends BasePage {
         clickWithJSExecutor(widgets,0,400);
         return new SidePanel(driver);
     }
+
+    @FindBy(xpath = "//h5[.='Interactions']")
+    WebElement interactions;
+
+    public SidePanel getInteractions() {
+        clickWithJSExecutor(interactions,0,400);
+        return new SidePanel(driver);
+    }
+
+    @FindBy(xpath = "//h5[.='Elements']")
+    WebElement elements;
+
+    public SidePanel getElements() {
+        clickWithJSExecutor(elements,0,400);
+        return new SidePanel(driver);
+    }
+
+    @FindBy(xpath = "//h5[.='Forms']")
+    WebElement forms;
+
+    public SidePanel getForms() {
+        clickWithJSExecutor(forms,0,400);
+        return new SidePanel(driver);
+    }
 }
