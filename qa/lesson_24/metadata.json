@@ -23,7 +23,7 @@
     "code/QA21_POMMavenProject/src/test/java/tests/interactions/DropDragTests.java",
     "code/QA21_POMMavenProject/src/test/java/tests/widgets/SelectTests.java",
     "code/QA21_POMMavenProject/src/test/java/tests/JavaScriptExecutorTests.java",
-    "code/QA21_POMMavenProject/src/test/java/tests/bookStore/TestBase.java",
+    "code/QA21_POMMavenProject/src/test/java/tests/TestBase.java",
     "code/QA21_POMMavenProject/pom.xml"
   ],
    "video": ""
