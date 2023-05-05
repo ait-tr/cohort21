@@ -1,0 +1,19 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/dz20230503_1/src/Account.java",
+"code/dz20230503_1/src/GameInfo.java",
+"code/dz20230503_1/src/GameTeamInfo.java",
+"code/dz20230503_1/src/Main.java",
+"code/dz20230503_1/src/Main2.java",
+"code/dz20230503_1/src/Person.java"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
