@@ -1,0 +1,21 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/cli20230505_1/src/Main.java",
+"code/serv20230505/src/Main.java",
+"code/demo1/src/main/java/de/aittr/demo1/Demo1Application.java",
+"code/demo1/src/main/java/de/aittr/demo1/UserController.java",
+"code/demo1/src/main/java/de/aittr/demo1/Users.java",
+"code/demo1/src/main/resources/templates/usersview.html",
+"code/demo1/src/test/java/de/aittr/demo1/Demo1ApplicationTests.java",
+"code/demo1/target/classes/templates/usersview.html"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
