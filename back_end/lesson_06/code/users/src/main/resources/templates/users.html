@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+</head>
+<body>
+   <h1>Hello Users</h1>
+   <table>
+       <tbody>
+       <tr th:each="user: ${users}">
+           <th th:text="${userStat.index}"></th>
+           <th th:text="${userStat.count}"></th>
+          <td  th:text = "${user.name}"></td>
+          <td  th:text = "${user.city}"></td>
+       </tr>
+       </tbody>
+   </table>
+
+
+
+</body>
+</html>
