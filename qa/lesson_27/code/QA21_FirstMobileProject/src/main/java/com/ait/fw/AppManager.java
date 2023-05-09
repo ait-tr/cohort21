@@ -25,7 +25,7 @@ public class AppManager {
         capabilities.setCapability("automationName","Appium");
         capabilities.setCapability("appPackage","com.blanyal.remindly");
         capabilities.setCapability("appActivity","com.blanyal.remindme.MainActivity");
-        capabilities.setCapability("app","C:/Users/Tel-Ran.de/Documents/apk/com.blanyal.remindly_2_apps.evozi.com.apk");
+        capabilities.setCapability("app","...");
 
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
