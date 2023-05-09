@@ -1,0 +1,8 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA21_FirstCucumberProject/src/main/java/com/ait/pages/BasePage.java"
+  ],
+   "video": ""
+}
