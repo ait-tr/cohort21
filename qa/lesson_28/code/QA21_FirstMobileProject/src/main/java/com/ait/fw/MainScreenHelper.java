@@ -3,7 +3,7 @@ package com.ait.fw;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 
-public class MainScreenHelper extends BaseHelper {
+public class MainScreenHelper extends BaseHelper{
 
     public MainScreenHelper(AppiumDriver driver) {
         super(driver);
@@ -19,9 +19,13 @@ public class MainScreenHelper extends BaseHelper {
     }
 
     public int getTotalReminders() {
-//        int idCount = driver.findElements(By.id("thumbnail_image")).size();
-//        System.out.println("Total reminders quantity is " + idCount);
-//        return idCount;
         return driver.findElements(By.id("thumbnail_image")).size();
+    }
+
+    public String isTitlePresent() {
+
+        String text = driver.findElement(By.id("recycle_title")).getText();
+        System.out.println(text);
+        return text;
     }
 }
