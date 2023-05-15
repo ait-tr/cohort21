@@ -1,0 +1,34 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/spring/src/main/java/de/aittr/users/controllers/HelloController.java",
+"code/spring/src/main/java/de/aittr/users/controllers/OrderController.java",
+"code/spring/src/main/java/de/aittr/users/controllers/UserController.java",
+"code/spring/src/main/java/de/aittr/users/dao/OrdersDAO.java",
+"code/spring/src/main/java/de/aittr/users/dao/UsersDAO.java",
+"code/spring/src/main/java/de/aittr/users/entity/Order.java",
+"code/spring/src/main/java/de/aittr/users/entity/User.java",
+"code/spring/src/main/java/de/aittr/users/UsersApplication.java",
+"code/spring/src/main/resources/static/css/index.css",
+"code/spring/src/main/resources/static/js/script.js",
+"code/spring/src/main/resources/templates/hello.html",
+"code/spring/src/main/resources/templates/orders.html",
+"code/spring/src/main/resources/templates/user-info.html",
+"code/spring/src/main/resources/templates/user-order.html",
+"code/spring/src/main/resources/templates/users.html",
+"code/spring/target/classes/static/css/index.css",
+"code/spring/target/classes/static/js/script.js",
+"code/spring/target/classes/templates/hello.html",
+"code/spring/target/classes/templates/orders.html",
+"code/spring/target/classes/templates/user-info.html",
+"code/spring/target/classes/templates/user-order.html",
+"code/spring/target/classes/templates/users.html"],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+</head>
+<body>
+   <h1 th:text="'User #' + ${user_id}"></h1>
+   <table>
+       <tbody>
+       <tr>
+          <td  th:text = "${user.name}"></td>
+          <td  th:text = "${user.city}"></td>
+       </tr>
+       </tbody>
+   </table>
+
+
+
+</body>
+</html>

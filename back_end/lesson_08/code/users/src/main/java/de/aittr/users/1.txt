@@ -1,0 +1,3 @@
+myUserApi.org/users/10?city=berlin
+myUserApi.org/users/9/status
+

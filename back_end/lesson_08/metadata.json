@@ -1,0 +1,32 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/users/src/main/java/de/aittr/users/controllers/HelloController.java",
+"code/users/src/main/java/de/aittr/users/controllers/UserController.java",
+"code/users/src/main/java/de/aittr/users/dao/UsersDAO.java",
+"code/users/src/main/java/de/aittr/users/entity/User.java",
+"code/users/src/main/java/de/aittr/users/UsersApplication.java",
+"code/users/src/main/resources/static/css/index.css",
+"code/users/src/main/resources/static/js/script.js",
+"code/users/src/main/resources/templates/create-user-form.html",
+"code/users/src/main/resources/templates/edit-user-form.html",
+"code/users/src/main/resources/templates/hello.html",
+"code/users/src/main/resources/templates/user-info.html",
+"code/users/src/main/resources/templates/users.html",
+"code/users/target/classes/static/css/index.css",
+"code/users/target/classes/static/js/script.js",
+"code/users/target/classes/templates/create-user-form.html",
+"code/users/target/classes/templates/edit-user-form.html",
+"code/users/target/classes/templates/hello.html",
+"code/users/target/classes/templates/user-info.html",
+"code/users/target/classes/templates/users.html"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}

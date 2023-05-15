@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+</head>
+<body>
+   <h1>Hello Users</h1>
+   <table>
+       <tbody>
+       <tr th:each="user: ${users}">
+           <th th:text="${userStat.index}"></th>
+           <th th:text="${userStat.count}"></th>
+           <th th:text="${user.id}"></th>
+          <td  th:text = "${user.name}"></td>
+          <td  th:text = "${user.city}"></td>
+           <td>
+               <form th:method="GET"
+                     th:action="@{/users/edit/{id}(id=${user.id})}">
+               <button type="submit"
+                       name="edit-user-btn"
+                       >Edit
+               </button>
+               </form>
+
+           </td>
+           <td><a th:href="@{/users/edit/{id}(id=${user.id})}"> Edit </a></td>
+
+           <td>
+               <form th:method="DELETE"
+                     th:action="@{/users/{id}(id=${user.id})}">
+                   <button type="submit"
+                           name="delete-user-btn"
+                           th:value ="${user.id}"
+                   >Delete
+                   </button>
+               </form>
+
+           </td>
+       </tr>
+       </tbody>
+   </table>
+    <div>
+        <a th:href="@{/users/new}"> Add new user </a>
+    </div>
+
+</body>
+</html>
