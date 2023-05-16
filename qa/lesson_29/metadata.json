@@ -1,5 +1,6 @@
 {
   "plan": "plan.md",
+  "theory": "theory.md",
   "code": [
     "code/QA21_FirstMobileProject/build.gradle",
     "code/QA21_FirstMobileProject/src/main/java/com/ait/fw/AppManager.java",
