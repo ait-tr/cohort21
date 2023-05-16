@@ -1,5 +1,6 @@
 package com.ait.fw;
 
+import com.ait.model.Reminder;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.touch.offset.PointOption;
@@ -171,6 +172,21 @@ public class ReminderHelper extends BaseHelper{
         tap(By.xpath("//*[@text='" + typeRep + "']"));
     }
 
-    //RepeatType
+    public void enterAllData(Reminder reminder) {
+        enterTitle(reminder.getTitle());
+        tapOnDate();
+        selectCertainMonth(reminder.getPeriod(), reminder.getMonth(), reminder.getNumber());
+        selectDate(reminder.getIndex());
+        tapOnYear();
+        selectYear(reminder.getPeriod2(), reminder.getYear());
+        tapOnOk();
+        tapOnTimeField();
+        selectTime(reminder.getTimeOfDay(), reminder.getXHour(), reminder.getYHour(),
+                reminder.getXMin(), reminder.getYMin());
+        tapOnOk();
+        selectRepetition(reminder.getRepeat());
+        swipe(reminder.getStart(), reminder.getStop());
+        selectTypeOfRepetition(reminder.getTypeRep());
+    }
 }
 

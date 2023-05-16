@@ -1,6 +1,8 @@
 package com.ait.tests;
 
+import com.ait.model.Reminder;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class AddReminderTests extends TestBase {
@@ -77,5 +79,22 @@ public class AddReminderTests extends TestBase {
         app.getReminder().saveReminder();
         //assert by text
         Assert.assertTrue(app.getMainScreen().isTitlePresent().contains("Feiertag"));
+    }
+
+    @Test
+    public void addReminderShortTest() {
+        app.getMainScreen().tapOnAddReminder();
+        app.getReminder().enterAllData(Reminder.builder()
+                .title("Feiertag").period("future").month("JUL").number(3).index(15).period2("future")
+                .year("2026").timeOfDay("pm").xHour(805).yHour(922).xMin(538).yMin(656)
+                .repeat("4").start(0.8).stop(0.5).typeRep("Month").build());
+        app.getReminder().saveReminder();
+        Assert.assertTrue(app.getMainScreen().isTitlePresent().contains("Feiertag"));
+    }
+
+
+    @AfterMethod
+    public void removeReminder() {
+        app.getMainScreen().removeReminder();
     }
 }
