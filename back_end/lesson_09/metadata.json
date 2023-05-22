@@ -1,0 +1,29 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/d20230522_1/src/Connection.java",
+"code/d20230522_1/src/DeliveryService.java",
+"code/d20230522_1/src/Main.java",
+"code/d20230522_1/src/MessageDeliveryByNet.java",
+"code/d20230522_1/src/Messenger.java",
+"code/d20230522_1/src/TcpConnection.java",
+"code/d20230522_1/src/UdpConnection.java",
+"code/d20230522_2/src/Main.java",
+"code/d20230522_2/src/Singleton.java",
+"code/demo/src/main/java/com/aittr/demo/Connection.java",
+"code/demo/src/main/java/com/aittr/demo/DeliveryService.java",
+"code/demo/src/main/java/com/aittr/demo/DemoApplication.java",
+"code/demo/src/main/java/com/aittr/demo/MessageDeliveryByNet.java",
+"code/demo/src/main/java/com/aittr/demo/Messenger.java",
+"code/demo/src/main/java/com/aittr/demo/TcpConnection.java",
+"code/demo/src/test/java/com/aittr/demo/DemoApplicationTests.java"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
