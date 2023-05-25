@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/rest/src/main/java/com/aittr/rest/Auto.java",
+"code/rest/src/main/java/com/aittr/rest/AutosController.java",
+"code/rest/src/main/java/com/aittr/rest/City.java",
+"code/rest/src/main/java/com/aittr/rest/CityController.java",
+"code/rest/src/main/java/com/aittr/rest/CityRepository.java",
+"code/rest/src/main/java/com/aittr/rest/CityService.java",
+"code/rest/src/main/java/com/aittr/rest/CityServiceImpl.java",
+"code/rest/src/main/java/com/aittr/rest/RestApplication.java",
+"code/rest/src/test/java/com/aittr/rest/RestApplicationTests.java"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
