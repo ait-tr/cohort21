@@ -4,6 +4,7 @@
   "homework": "homework.md",
   "code": [
 "code/city/src/main/java/de/ait/city/CityApplication.java",
+"code/city/src/main/java/de/ait/city/configuration/AppConfiguration.java",
 "code/city/src/main/java/de/ait/city/controller/CityController.java",
 "code/city/src/main/java/de/ait/city/dto/CityRequestDTO.java",
 "code/city/src/main/java/de/ait/city/dto/CityResponseDTO.java",
