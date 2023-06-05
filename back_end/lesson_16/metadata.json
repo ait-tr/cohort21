@@ -1,0 +1,21 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/city/src/main/java/de/ait/city/CityApplication.java",
+"code/city/src/main/java/de/ait/city/controller/CityController.java",
+"code/city/src/main/java/de/ait/city/dto/CityRequestDTO.java",
+"code/city/src/main/java/de/ait/city/dto/CityResponseDTO.java",
+"code/city/src/main/java/de/ait/city/entity/City.java",
+"code/city/src/main/java/de/ait/city/repository/CityRepository.java",
+"code/city/src/main/java/de/ait/city/service/CityServiceImpl.java",
+"code/city/src/test/java/de/ait/city/CityApplicationTests.java"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
