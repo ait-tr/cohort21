@@ -1,0 +1,41 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/bd1/src/main/java/de/aittr/bd1/Bd1Application.java",
+"code/bd1/src/main/java/de/aittr/bd1/cofiguration/AppConfig.java",
+"code/bd1/src/main/java/de/aittr/bd1/controller/AccountController.java",
+"code/bd1/src/main/java/de/aittr/bd1/controller/CardController.java",
+"code/bd1/src/main/java/de/aittr/bd1/controller/ClientController.java",
+"code/bd1/src/main/java/de/aittr/bd1/dto/AccountRequestDTO.java",
+"code/bd1/src/main/java/de/aittr/bd1/dto/AccountResponseDTO.java",
+"code/bd1/src/main/java/de/aittr/bd1/dto/CardRequestDTO.java",
+"code/bd1/src/main/java/de/aittr/bd1/dto/CardResponseDTO.java",
+"code/bd1/src/main/java/de/aittr/bd1/dto/ClientRequestDTO.java",
+"code/bd1/src/main/java/de/aittr/bd1/dto/ClientResponseDTO.java",
+"code/bd1/src/main/java/de/aittr/bd1/entity/Account.java",
+"code/bd1/src/main/java/de/aittr/bd1/entity/Card.java",
+"code/bd1/src/main/java/de/aittr/bd1/entity/CardType.java",
+"code/bd1/src/main/java/de/aittr/bd1/entity/CardTypeConverter.java",
+"code/bd1/src/main/java/de/aittr/bd1/entity/Client.java",
+"code/bd1/src/main/java/de/aittr/bd1/entity/ClientType.java",
+"code/bd1/src/main/java/de/aittr/bd1/entity/ClientTypeConverter.java",
+"code/bd1/src/main/java/de/aittr/bd1/repository/AccountRepository.java",
+"code/bd1/src/main/java/de/aittr/bd1/repository/CardRepository.java",
+"code/bd1/src/main/java/de/aittr/bd1/repository/ClientRepository.java",
+"code/bd1/src/main/java/de/aittr/bd1/service/AccountService.java",
+"code/bd1/src/main/java/de/aittr/bd1/service/AccountServiceIml.java",
+"code/bd1/src/main/java/de/aittr/bd1/service/CardService.java",
+"code/bd1/src/main/java/de/aittr/bd1/service/CardServiceImpl.java",
+"code/bd1/src/main/java/de/aittr/bd1/service/ClientService.java",
+"code/bd1/src/main/java/de/aittr/bd1/service/ClientServiceImp.java",
+"code/bd1/src/test/java/de/aittr/bd1/Bd1ApplicationTests.java"
+],
+  "presentation": "",
+  "video": [
+	"",
+	""
+	],
+  "etc": ""
+}
